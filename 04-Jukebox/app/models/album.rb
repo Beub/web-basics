@@ -9,7 +9,7 @@ class Album
     @artist = args[:artist]
     @year = args[:year]
   end
-  
+
   def save
     $albums << self
   end
